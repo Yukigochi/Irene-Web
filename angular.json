@@ -121,8 +121,13 @@
               "devServerTarget": "Irene-Web:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Irene-Web"
 }
